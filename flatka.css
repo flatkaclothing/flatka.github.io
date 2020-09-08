@@ -1,0 +1,29 @@
+body{
+	background-color: rgb(215, 215, 215);
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.container img{
+	width: 15em;
+	height: 15em;
+	margin: 10px;
+	transition: all 1s;
+	cursor: pointer;
+}
+
+.container img:hover{
+	transform: scale(1.1);
+}
+
+.btn-dark{
+	background-color: black;
+}
+
+.btn-dark:hover{
+	background-color: grey;
+}
